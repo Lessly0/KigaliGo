@@ -165,3 +165,26 @@ section {
     cursor: pointer;
     box-shadow:0 4px 24px rgba(0,0,0,0.10);
 }
+/* video */
+.video-section { 
+    padding:80px 48px; 
+    height: 100vh;
+    align-items: center;
+    background:#0e1a14; 
+    color:#fff; 
+}
+.video-section h2{
+    color:#f0d080; 
+    font-size: 40px;
+    margin: 15px 0px;
+}
+.video-section p{
+    font-size: 20px;
+    margin: 40px 0px;
+}
+.video-wrapper { 
+    max-width:900px; 
+    border-radius:15px; 
+    overflow:hidden;
+    box-shadow:0 12px 48px rgba(0,0,0,0.5); 
+}
