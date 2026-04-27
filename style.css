@@ -188,3 +188,112 @@ section {
     overflow:hidden;
     box-shadow:0 12px 48px rgba(0,0,0,0.5); 
 }
+
+/* plan */
+.plan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background:#0e1a14; 
+}
+.plan h1{
+    color:#f0d080; 
+    font-size: 40px;
+    margin: 15px 0px;
+}
+.plan p{
+    font-size: 20px;
+    margin: 40px 0px;;
+}
+.table-head{
+    width: 80%;
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: #13241b;
+    border-radius: 25px;
+}
+.table-head thead{
+    background-color: #1a5c38;
+}
+.table-head th {
+    color: #f0d080;
+    padding: 10px;
+    text-align: left;
+}
+.table-head td {
+    padding: 15px;
+    color: #ffffff;
+    border: 0.1px line black;   
+}
+.table-body tr{
+    background:#2e4a3a;
+}
+
+/* form */
+.form-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+    color: black;  
+}
+.form-section h1{
+    color:#f0d080; 
+    font-size: 40px;
+    margin: 10px 0;
+}
+.form-section p{
+    font-size: 20px;
+    margin: 20px 0 40px 0;
+}
+.travel-form {
+    width: 50%;
+    padding: 20px;
+    background-color: #e0e0e0;
+    border-radius: 30px;
+}
+
+.travel-form h2 {
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.travel-form label {
+    display: block;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.travel-form input,
+.travel-form select,
+.travel-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.travel-form button {
+    margin-top: 30px;
+    width: 100%;
+    padding: 10px;
+    background-color: #1a5c38;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.travel-form button:hover {
+    background-color: #14492c;
+}
+
+
+
+
+
